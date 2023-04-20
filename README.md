@@ -6,6 +6,7 @@ The repository currently contains all the core implementation code. File descrip
 
 ## Train and Infer
 Linux terminal command
+
 Train: ```export CUDA_VISIBLE=0; python train.py```
 
 Infer: ```export CUDA_VISIBLE=0; python infer.py```
