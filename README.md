@@ -9,6 +9,9 @@ Train: ```export CUDA_VISIBLE=0; python train.py```
 
 Infer: ```export CUDA_VISIBLE=0; python infer.py```
 
+## Dataset
+Datasets is uploding now from my Synology NAS.
+
 ## TODO
 - [x] Core implementation code
 - [x] Description of run script
