@@ -1,5 +1,5 @@
 # TransMatch_TMI
-This is a repository of the implementations of manuscript "TransMatch: A Transformer-based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration", which is submitted to the IEEE TMI journal.
+This is a repository of the implementations of manuscript "TransMatch: A Transformer-based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration", which is submitted to the [IEEE TMI journal](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42).
 
 ## Descriptions
 The repository currently contains all the core implementation code. File descriptions, datasets, usage, and some visualization code are being uploaded.
