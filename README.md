@@ -20,6 +20,6 @@ Infer: ```export CUDA_VISIBLE=0; python infer.py```
 Please feel free to concact me if you have any further questions: snowbplus [AT] gmail [DOT] com
 
 
-##Acknowledgements
+## Acknowledgements
 Thanks to Junyu Chen and Tony C. Mok for their guidance and help with the open source code.
 
