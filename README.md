@@ -5,6 +5,7 @@ This is a repository of the implementations of manuscript "TransMatch: A Transfo
 The repository currently contains all the core implementation code. File descriptions, datasets, usage, and some visualization code are being uploaded.
 
 ## Train and Infer
+Linux terminal command
 Train: ```export CUDA_VISIBLE=0; python train.py```
 
 Infer: ```export CUDA_VISIBLE=0; python infer.py```
