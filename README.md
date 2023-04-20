@@ -26,5 +26,5 @@ Please feel free to concact me if you have any further questions: snowbplus [AT]
 
 
 ## Acknowledgements
-Thanks to Junyu Chen and Tony C. Mok for their guidance and help with the open source code.
+Thanks to Junyu Chen and Tony C. W. Mok for their guidance and help with the open source code.
 
