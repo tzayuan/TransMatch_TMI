@@ -8,8 +8,8 @@ This is a repository of the implementations of manuscript "TransMatch: A Transfo
 ## Descriptions
 The repository currently contains all the core implementation code. File descriptions, datasets, usage, and some visualization code are being uploaded.
 
-## Train and Infer
-Linux terminal command
+## Train and Infer Command
+For Linux:
 
 Train:  
 ```export CUDA_VISIBLE_DEVICES=0``` (If needed)  
