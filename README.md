@@ -8,7 +8,7 @@ The repository currently contains all the core implementation code. File descrip
 Linux terminal command
 
 Train:  
-```export CUDA_VISIBLE_DEVICES=0;``` (If needed)  
+```export CUDA_VISIBLE_DEVICES=0``` (If needed)  
 ```python train.py```
 
 Infer:  
