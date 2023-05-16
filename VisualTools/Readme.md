@@ -5,3 +5,6 @@ Calculate the difference between the intensity values of the two images at the s
 
 ## BoxPlot
 Visualize the comparison of box line plots of different methods on a performance metric.
+
+## Recommand
+More visualization codes are being added, if you have further needs or questions, please feel free to contact me.
