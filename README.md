@@ -7,9 +7,13 @@ The repository currently contains all the core implementation code. File descrip
 ## Train and Infer
 Linux terminal command
 
-Train: ```export CUDA_VISIBLE_DEVICES=0; python train.py```
+Train:  
+```export CUDA_VISIBLE_DEVICES=0;``` (If needed)  
+```python train.py```
 
-Infer: ```export CUDA_VISIBLE_DEVICES=0; python infer.py```
+Infer:  
+```export CUDA_VISIBLE_DEVICES=0``` (If needed)  
+```python infer.py```
 
 ## Dataset
 Datasets is uploding now from my Synology NAS, upload expected to be completed by the end of June
