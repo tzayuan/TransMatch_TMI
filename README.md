@@ -12,12 +12,13 @@ Train: ```export CUDA_VISIBLE_DEVICES=0; python train.py```
 Infer: ```export CUDA_VISIBLE_DEVICES=0; python infer.py```
 
 ## Dataset
-Datasets is uploding now from my Synology NAS.
+Datasets is uploding now from my Synology NAS, upload expected to be completed by the end of June
 
 ## TODO
 - [x] Core implementation code
 - [x] Description of run script
-- [ ] Datasets url link
+- [ ] Datasets url link (upload expected to be completed by the end of June)
+- [ ] Checkpoint url link (upload expected to be completed by the end of June)
 - [ ] visualization code
 
 
