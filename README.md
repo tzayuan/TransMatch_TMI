@@ -16,7 +16,7 @@ Infer:
 ```python infer.py```
 
 ## Dataset
-Datasets is uploding now from my Synology NAS, upload expected to be completed by the end of June
+Datasets is uploding now from my Synology NAS, upload expected to be completed by the end of June. You can now easily train the code by organizing your own datasets. Note that the code file located in ```/Model/datagenerators_atlas.py``` needs to be modified so that the dataset is loaded to match your dataset organization format.
 
 ## TODO
 - [x] Core implementation code
