@@ -21,9 +21,10 @@ Datasets is uploding now from my Synology NAS, upload expected to be completed b
 ## TODO
 - [x] Core implementation code
 - [x] Description of run script
+- [x] visualization code
 - [ ] Datasets url link (upload expected to be completed by the end of June)
 - [ ] Checkpoint url link (upload expected to be completed by the end of June)
-- [ ] visualization code
+
 
 
 ## Concact
