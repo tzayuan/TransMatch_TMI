@@ -28,6 +28,7 @@ Datasets is uploding now from my Synology NAS, upload expected to be completed b
 - [x] visualization code
 - [ ] Datasets url link (upload expected to be completed by the end of June)
 - [ ] Checkpoint url link (upload expected to be completed by the end of June)
+- [ ] Docker images & Google Colab Documents 
 
 
 
