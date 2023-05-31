@@ -32,7 +32,7 @@ Datasets is uploding now from my Synology NAS, upload expected to be completed b
 
 
 
-## <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30"> Concact
+## <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30"> Contact
 Please feel free to contact me if you have any further questions: snowbplus [AT] gmail [DOT] com
 
 
