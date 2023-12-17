@@ -39,6 +39,17 @@ Besides, you can now easily train the code by organizing your own datasets. Note
 ## <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30"> Contact
 Please feel free to contact me if you have any further questions: snowbplus [AT] gmail [DOT] com
 
+## Citation
+If you find this code is useful in your research, please consider to cite:
+```
+@article{chen2023transmatch,
+  title={TransMatch: A Transformer-based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration},
+  author={Chen, Zeyuan and Zheng, Yuanjie and Gee, James C},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2023},
+  publisher={IEEE}
+}
+```
 
 ## Acknowledgements
 Thanks to Junyu Chen and Tony C. W. Mok for their guidance and help with the open source code.
