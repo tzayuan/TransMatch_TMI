@@ -1,9 +1,12 @@
 # TransMatch_TMI
-This is a repository of the implementations of manuscript "TransMatch: A Transformer-based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration", which is submitted to the [IEEE TMI journal](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42).
+This is a repository of the implementations of paper "TransMatch: A Transformer-based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration", which is published in [IEEE TMI journal](https://ieeexplore.ieee.org/abstract/document/10158729/).
 
-<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.5-ff69b4.svg" /></a>
-<a href= "https://pytorch.org/"> <img src="https://img.shields.io/badge/PyTorch-1.5-2BAF2B.svg" /></a>
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8-ff69b4.svg" /></a>
+<a href= "https://pytorch.org/"> <img src="https://img.shields.io/badge/PyTorch-2.1-2BAF2B.svg" /></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+
+## News
+[12/17/2023] - **The code has been re-reviewed and debugged, and it is now ready for direct training and inference on the provided LPBA40 dataset.**
         
 ## Descriptions
 The repository currently contains all the core implementation code. File descriptions, datasets, usage, and some visualization code are being uploaded.
@@ -13,21 +16,22 @@ For Linux:
 
 Train:  
 ```export CUDA_VISIBLE_DEVICES=0``` (If needed)  
-```python train.py```
+```python Train.py```
 
 Infer:  
 ```export CUDA_VISIBLE_DEVICES=0``` (If needed)  
-```python infer.py```
+```python Infer.py```
 
 ## Dataset
-Datasets is uploding now from my Synology NAS, upload expected to be completed by the end of June. You can now easily train the code by organizing your own datasets. Note that the code file located in ```/Model/datagenerators_atlas.py``` needs to be modified so that the dataset is loaded to match your dataset organization format.
+LPBA40 Datasets is uploded now.  [[LPBA40 datasets download link](https://drive.google.com/file/d/1mRmJpk06guietL3tUxpJjPYzEoJ0GLtm/view?usp=sharing)]
+
+Besides, you can now easily train the code by organizing your own datasets. Note that the code file located in ```/utils/datagenerators_atlas.py``` needs to be modified so that the dataset is loaded to match your dataset organization format.
 
 ## TODO
 - [x] Core implementation code
 - [x] Description of run script
 - [x] Visualization code
-- [ ] Datasets url link (upload expected to be completed by the end of June)
-- [ ] Checkpoint url link (upload expected to be completed by the end of June)
+- [x] Datasets url link (LPBA40 is uploaded)
 - [ ] Docker images & Google Colab Documents 
 
 
