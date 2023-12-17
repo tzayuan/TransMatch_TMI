@@ -1,13 +1,7 @@
-import torch.nn as nn
-import torch
-from .token_performer import Token_performer
-from .Transformer import moving_token_inference, contour_token_inference, token_TransformerEncoder
-
-from typing import Optional, Sequence, Tuple, Type, Union
-
+import Models.Conv3dReLU as opt_Conv
 import torch
 from torch import nn
-from torch.nn import functional as F
+from torch.distributions.normal import Normal
 
 
 class DecoderBlock(nn.Module):
@@ -19,21 +13,21 @@ class DecoderBlock(nn.Module):
             use_batchnorm=True,
     ):
         super().__init__()
-        self.conv1 = Conv3dReLU(
+        self.conv1 = opt_Conv.Conv3dReLU(
             in_channels + skip_channels + skip_channels,
             out_channels,
             kernel_size=3,
             padding=1,
             use_batchnorm=use_batchnorm,
         )
-        self.conv2 = Conv3dReLU(
+        self.conv2 = opt_Conv.Conv3dReLU(
             out_channels,
             out_channels,
             kernel_size=3,
             padding=1,
             use_batchnorm=use_batchnorm,
         )
-        self.conv3 = Conv3dReLU(
+        self.conv3 = opt_Conv.Conv3dReLU(
             in_channels + skip_channels,
             out_channels,
             kernel_size=3,
