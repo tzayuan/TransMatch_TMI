@@ -6,7 +6,7 @@ This is a repository of the implementations of paper "TransMatch: A Transformer-
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 
 ## News
-[12/17/2023] - **The code has been re-reviewed and debugged, and it is now ready for direct training and inference on the provided LPBA40 dataset.**
+[12/17/2023] - **The code has been re-reviewed and debugged, and it is now ready for direct training and inference on the provided LPBA40 example dataset.**
         
 ## Descriptions
 The repository currently contains all the core implementation code. File descriptions, datasets, usage, and some visualization code are being uploaded.
