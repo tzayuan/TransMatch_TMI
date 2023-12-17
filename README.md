@@ -12,6 +12,8 @@ This is a repository of the implementations of paper "TransMatch: A Transformer-
 The repository currently contains all the core implementation code. File descriptions, datasets, usage, and some visualization code are being uploaded.
 
 ## Train and Infer Command
+Before running the commands, please ensure that the dataset has been correctly placed. Taking the example of running the sample code on the LPBA40 dataset, ensure that the LPBA40 dataset is placed under ```../../../Dataset/LPBA40_delineation/```. This will ensure that the code can run directly without encountering any path-related errors. (Here, ```./``` refers to the directory path where ```Train.py``` and ```Infer.py``` are located.)
+
 For Linux:
 
 Train:  
