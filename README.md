@@ -1,11 +1,13 @@
 # TransMatch_TMI
-This is a repository of the implementations of paper "TransMatch: A Transformer-based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration", which is published in [IEEE TMI journal](https://ieeexplore.ieee.org/abstract/document/10158729/).
+This repository contains the implementations of the paper 'TransMatch: A Transformer-based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration,' published in the IEEE Transactions on Medical Imaging (TMI) journal. 
+
+[[Paper](https://ieeexplore.ieee.org/abstract/document/10158729/)] [[Code](https://github.com/tzayuan/TransMatch_TMI)]
 
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8-ff69b4.svg" /></a>
 <a href= "https://pytorch.org/"> <img src="https://img.shields.io/badge/PyTorch-2.1-2BAF2B.svg" /></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 
-## News
+## What's News
 [12/17/2023] - **The code has been re-reviewed and debugged, and it is now ready for direct training and inference on the provided LPBA40 example dataset.**
         
 ## Descriptions
