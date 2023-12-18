@@ -1,4 +1,4 @@
-# TransMatch_TMI
+# TransMatch
 This repository contains the implementations of the paper 'TransMatch: A Transformer-based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration,' published in the IEEE Transactions on Medical Imaging (TMI) journal. 
 
 [[Paper](https://ieeexplore.ieee.org/abstract/document/10158729/)] [[Code](https://github.com/tzayuan/TransMatch_TMI)]
