@@ -29,7 +29,8 @@ Infer:
 ## Dataset
 LPBA40 Datasets is uploded now.  [[LPBA40 datasets download link](https://drive.google.com/file/d/1mRmJpk06guietL3tUxpJjPYzEoJ0GLtm/view?usp=sharing)]
 
-Besides, you can now easily train the code by organizing your own datasets. Note that the code file located in ```/utils/datagenerators_atlas.py``` needs to be modified so that the dataset is loaded to match your dataset organization format.
+
+Additionally, you can effortlessly train the code by customizing your datasets. Please be aware that you'll need to adjust the code file located at ```/utils/datagenerators_atlas.py``` to ensure the dataset is loaded in accordance with your specific dataset organization format.
 
 ## TODO
 - [x] Core implementation code
