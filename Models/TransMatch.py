@@ -2,10 +2,10 @@ import torch.nn as nn
 import torch
 import Models.Conv3dReLU as Conv3dReLU
 import Models.LWSA as LWSA
-
-import utils.configs_TransMatch as configs
 import Models.LWCA as LWCA
 import Models.Decoder as Decoder
+import utils.configs_TransMatch as configs
+
 
 class TransMatch(nn.Module):
     def __init__(self, args):
