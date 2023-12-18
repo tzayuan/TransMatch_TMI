@@ -41,7 +41,7 @@ Besides, you can now easily train the code by organizing your own datasets. Note
 
 
 ## <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30"> Contact
-Please feel free to contact me if you have any further questions: snowbplus [AT] gmail [DOT] com
+Feel free to contact me if you have any further questions: snowbplus [AT] gmail [DOT] com
 
 ## Citation
 If you find this code is useful in your research, please consider to cite:
