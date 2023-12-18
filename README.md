@@ -11,7 +11,7 @@ This repository contains the implementations of the paper 'TransMatch: A Transfo
 [12/17/2023] - **The code has been re-reviewed and debugged, and it is now ready for direct training and inference on the provided LPBA40 example dataset.**
         
 ## Descriptions
-The repository currently contains all the core implementation code. File descriptions, datasets, usage, and some visualization code are being uploaded.
+This repository currently provides examples of implementing, training, and inferring with the core model code. It also includes guidance on running the code on sample datasets. Additionally, there are suggestions and code for visual analysis.
 
 ## Train and Infer Command
 Before running the commands, please ensure that the dataset has been correctly placed. Taking the example of running the sample code on the LPBA40 dataset, ensure that the LPBA40 dataset is placed under ```../../../Dataset/LPBA40_delineation/```. This will ensure that the code can run directly without encountering any path-related errors. (Here, ```./``` refers to the directory path where ```Train.py``` and ```Infer.py``` are located.)
@@ -36,7 +36,7 @@ Besides, you can now easily train the code by organizing your own datasets. Note
 - [x] Description of run script
 - [x] Visualization code
 - [x] Datasets url link (LPBA40 is uploaded)
-- [ ] Docker images & Google Colab Documents 
+- [ ] ~~Docker images & Google Colab Documents (Feel free to submit pull requests!)~~
 
 
 
