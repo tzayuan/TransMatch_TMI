@@ -37,7 +37,7 @@ Additionally, you can effortlessly train the code by customizing your datasets. 
 - [x] Description of run script
 - [x] Visualization code
 - [x] Datasets url link (LPBA40 is uploaded)
-- [ ] ~~Docker images & Google Colab Documents (Feel free to submit pull requests!)~~
+- [ ] ~~Docker images & Google Colab Documents (Pull requests are always welcome!)~~
 
 
 
