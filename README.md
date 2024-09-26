@@ -48,9 +48,12 @@ Feel free to contact me if you have any further questions: snowbplus [AT] gmail 
 If you find this code is useful in your research, please consider to cite:
 ```
 @article{chen2023transmatch,
-  title={TransMatch: A Transformer-based Multilevel Dual-Stream Feature Matching Network for Unsupervised Deformable Image Registration},
+  title={Transmatch: A transformer-based multilevel dual-stream feature matching network for unsupervised deformable image registration},
   author={Chen, Zeyuan and Zheng, Yuanjie and Gee, James C},
-  journal={IEEE Transactions on Medical Imaging},
+  journal={IEEE transactions on medical imaging},
+  volume={43},
+  number={1},
+  pages={15--27},
   year={2023},
   publisher={IEEE}
 }
