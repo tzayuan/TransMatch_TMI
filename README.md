@@ -8,6 +8,8 @@ This repository contains the implementations of the paper 'TransMatch: A Transfo
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 
 ## What's News
+[2/25/2025] - **[TODO] Cross-modal image registration supported will coming soon.**
+
 [12/17/2023] - **The code has been re-reviewed and debugged, and it is now ready for direct training and inference on the provided LPBA40 example dataset.**
         
 ## Descriptions
