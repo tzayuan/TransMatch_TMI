@@ -39,6 +39,7 @@ Additionally, you can effortlessly train the code by customizing your datasets. 
 - [x] Description of run script
 - [x] Visualization code
 - [x] Datasets url link (LPBA40 is uploaded)
+- [ ] Cross-modal image registration supported
 - [ ] ~~Docker images & Google Colab Documents~~ (Pull requests are always welcome!)
 
 
