@@ -13,6 +13,7 @@ import torch.nn as nn
 import numpy as np
 import torch.nn.functional as F
 
+from transmatch.STN import SpatialTransformer
 import utils.losses_mm as losses
 import utils.utils as utils
 from utils.dataset_mm import data_generator_double, load_vol
@@ -74,7 +75,6 @@ def train():
     train_seg_database = train_seg_database[:150]
 
     in_shape= (192, 224, 192)
-    from voxelmorph.voxelmorph import SpatialTransformer
     model_stn = SpatialTransformer(in_shape, "bilinear")
     device = torch.device("cuda:" + gpu_id)
     model_stn.to(device)
@@ -120,7 +120,6 @@ def train():
             fixed_mask = torch.from_numpy(fixed_mask).to(device).float().permute(0, 4, 1, 2, 3)
 
             model_in = torch.cat((moving, fixed), dim=1)
-            print(model_in.shape)
             _, flow = model(model_in)
 
             loss = 0.0
