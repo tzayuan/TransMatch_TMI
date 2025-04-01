@@ -1,3 +1,5 @@
+# Support multimodal image inference, this inference example code is based on the SRSEG dataset as an example
+
 import os
 import time
 import glob
