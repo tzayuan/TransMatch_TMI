@@ -79,7 +79,7 @@ def train():
     device = torch.device("cuda:" + gpu_id)
     model_stn.to(device)
     if model_name == "transmatch":
-        from Models.TransMatch import TransMatch
+        from Models.TransMatch_mm import TransMatch
         model = TransMatch("123")
 
     lr = 0.0001
