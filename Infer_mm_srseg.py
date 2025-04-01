@@ -1,5 +1,3 @@
-# Support multimodal image inference, this inference example code is based on the SRSEG dataset as an example
-
 import os
 import time
 import glob
@@ -13,7 +11,7 @@ import torch.nn.functional as F
 
 from transmatch.STN import SpatialTransformer
 from dataset import load_vol
-from utils import dice, jacobian_determinant,minmax_norm
+from utils.utils import dice, jacobian_determinant,minmax_norm
 
 parser = argparse.ArgumentParser()
 # Please modify the path of 'transmatchbest.pt'. It is recommended to use an absolute path 
@@ -22,7 +20,6 @@ parser.add_argument("--gpu_id", type=str, default="0")
 
 args = parser.parse_args()
 load_model = args.load_model
-test_data = args.test_data
 gpu_id = args.gpu_id
 
 def test():
