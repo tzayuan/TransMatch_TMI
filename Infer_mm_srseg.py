@@ -12,7 +12,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from transmatch.STN import SpatialTransformer
-from dataset import load_vol
+from utils.dataset_mm import load_vol
 from utils.utils import dice, jacobian_determinant,minmax_norm
 
 parser = argparse.ArgumentParser()
