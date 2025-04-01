@@ -4,3 +4,9 @@ simpleitk
 natsort
 timm
 ml_collections
+
+# Additional requirements for multimodal inference
+scipy
+torchsummary
+nibabel
+pystrum
