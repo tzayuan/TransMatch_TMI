@@ -8,29 +8,37 @@ This repository contains the implementations of the paper 'TransMatch: A Transfo
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 
 ## What's News
-[2/25/2025] - **[TODO] Cross-modal image registration supported will coming soon.**
+[4/2/2025] - **[TODO] Cross-modal image registration supported now.**
 
 [12/17/2023] - **The code has been re-reviewed and debugged, and it is now ready for direct training and inference on the provided LPBA40 example dataset.**
         
 ## Descriptions
-This repository currently provides examples of implementing, training, and inferring with the core model code. It also includes guidance on running the code on sample datasets. Additionally, there are suggestions and code for visual analysis.
+This repository currently provides examples of implementing, training, and inferring with the core model code. For the 'transmatch' folder, its contents are almost identical to those in Models, except for the location of STN, which is specifically prepared for multimodal registration. It also includes guidance on running the code on sample datasets. Additionally, there are suggestions and code for visual analysis.
 
 ## Train and Infer Command
 Before running the commands, please ensure that the dataset has been correctly placed. Taking the example of running the sample code on the LPBA40 dataset, ensure that the LPBA40 dataset is placed under ```../../../Dataset/LPBA40_delineation/```. This will ensure that the code can run directly without encountering any path-related errors. (Here, ```./``` refers to the directory path where ```Train.py``` and ```Infer.py``` are located.)
 
 For Linux:
 
-Train:  
+Train (mono-modality):  
 ```export CUDA_VISIBLE_DEVICES=0``` (If needed)  
 ```python Train.py```
 
-Infer:  
+Infer (mono-modality):  
 ```export CUDA_VISIBLE_DEVICES=0``` (If needed)  
 ```python Infer.py```
 
+Train (multi-modality):  
+```export CUDA_VISIBLE_DEVICES=0``` (If needed)  
+```python Train_mm_srreg.py```
+
+Infer (multi-modality):  
+```export CUDA_VISIBLE_DEVICES=0``` (If needed)  
+```python Infer_mm_srreg.py```
+
 ## Dataset
 LPBA40 Datasets is uploded now.  [[LPBA40 datasets download link](https://drive.google.com/file/d/1mRmJpk06guietL3tUxpJjPYzEoJ0GLtm/view?usp=sharing)]
-
+SR-REG Datasets and multimodal ckpt of SR-REG is uploede now. 
 
 Additionally, you can effortlessly train the code by customizing your datasets. Please be aware that you'll need to adjust the code file located at ```/utils/datagenerators_atlas.py``` to ensure the dataset is loaded in accordance with your specific dataset organization format.
 
@@ -39,7 +47,7 @@ Additionally, you can effortlessly train the code by customizing your datasets. 
 - [x] Description of run script
 - [x] Visualization code
 - [x] Datasets url link (LPBA40 is uploaded)
-- [ ] Cross-modal image registration supported
+- [x] Cross-modal image registration supported
 - [ ] ~~Docker images & Google Colab Documents~~ (Pull requests are always welcome!)
 
 
