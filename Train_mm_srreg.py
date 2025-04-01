@@ -13,7 +13,7 @@ import torch.nn as nn
 import numpy as np
 import torch.nn.functional as F
 
-from transmatch.STN import SpatialTransformer
+from Models.STN import SpatialTransformer
 import utils.losses_mm as losses
 import utils.utils as utils
 from utils.dataset_mm import data_generator_double, load_vol
@@ -79,7 +79,7 @@ def train():
     device = torch.device("cuda:" + gpu_id)
     model_stn.to(device)
     if model_name == "transmatch":
-        from transmatch.TransMatch import TransMatch
+        from Models.TransMatch import TransMatch
         model = TransMatch("123")
 
     lr = 0.0001
