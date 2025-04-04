@@ -37,9 +37,9 @@ Infer (multi-modality):
 ```python Infer_mm_srreg.py```
 
 ## Dataset
-LPBA40 Datasets is uploded now.  [[LPBA40 datasets download link](https://drive.google.com/file/d/1mRmJpk06guietL3tUxpJjPYzEoJ0GLtm/view?usp=sharing)]
+LPBA40 Datasets is uploded now.  [[LPBA40 dataset](https://drive.google.com/file/d/1mRmJpk06guietL3tUxpJjPYzEoJ0GLtm/view?usp=sharing)]
 
-SR-REG Datasets and multimodal ckpt of SR-REG is uploede now. [[SR-REG datasets download link](https://drive.google.com/file/d/1YP0IOy3vthsC-QbDB4mbDPzJmyQ-ZsB4/view?usp=sharing)]  [[ckpt for SR-REG inference download link](https://drive.google.com/file/d/1Yrb3Ja5AkMQ0Ic14C6Tuzx2lZ5RvosSp/view?usp=sharing)]
+SR-REG Datasets and multimodal ckpt of SR-REG is uploede now. [[SR-REG dataset](https://drive.google.com/file/d/1YP0IOy3vthsC-QbDB4mbDPzJmyQ-ZsB4/view?usp=sharing)]  [[ckpt for SR-REG inference](https://drive.google.com/file/d/1Yrb3Ja5AkMQ0Ic14C6Tuzx2lZ5RvosSp/view?usp=sharing)]
 
 Additionally, you can effortlessly train the code by customizing your datasets. Please be aware that you'll need to adjust the code file located at ```/utils/datagenerators_atlas.py``` to ensure the dataset is loaded in accordance with your specific dataset organization format.
 
